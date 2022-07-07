@@ -1,0 +1,6 @@
+name: Cloaking
+version: 0.0.1
+main: bluescreen9.minecraft.bukkit.cloaking.Main
+api-version: 1.19
+commands:
+  cloak: 
