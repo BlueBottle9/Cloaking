@@ -1,8 +1,0 @@
-cloaking-delay: 2
-decloaking-delay: 3
-cloak: 
-  attack: false
-  action: false
-  teleport: true
-  changeworld: false
-default-language: 'zh_cn'
