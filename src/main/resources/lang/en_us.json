@@ -1,0 +1,12 @@
+{
+	"command.wrongusage":"&a[Cloaking] &c Wrong usage,Please use &f/cloak",
+	"command.playeronly":"&a[Cloaking] &cOnly players can run this command",
+	"command.cloaking":"&a[Cloaking] Cloaking...",
+	"command.cloaked":"&a[Cloaking] Cloaked",
+	"command.decloaking":"&a[Cloaking] Decloaking...",
+	"command.decloaked":"&a[Cloaking] Decloaked",
+	"command.warning.cloaking":"&a[Cloaking] &cCloaking",
+	"command.warning.decloaking":"&a[Cloaking]&cDecloaking",
+	"proccessbar.cloak":"&aCloak in <%cloak-time> seconds",
+	"proccessbar.decloak":"&aDecloak in <%decloak-time> seconds"
+}

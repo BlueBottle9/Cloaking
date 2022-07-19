@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.bluescreen9</groupId>
+  <artifactId>cloaking</artifactId>
+  <version>0.0.2</version>
+  <name>Cloaking</name>
+  <description>A simple bukkit plugin can make you invisible.</description>
+  
+      <!--To use Java17-->
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <java.version>17.0.1</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+  
+ <repositories>
+ 	<!--Spigot-->
+ 	<repository>
+   		<id>spigot-repo</id>
+  		<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+	</repository>
+ </repositories>
+ 
+ 
+ <dependencies>
+	<!--SpigotAPI -->
+	<dependency>
+		<groupId>org.spigotmc</groupId>
+		<artifactId>spigot-api</artifactId>
+		<version>1.19-R0.1-SNAPSHOT</version>
+		<scope>provided</scope>
+	</dependency>
+	<!--many-languages-->
+	<dependency>
+		<groupId>io.github.bluebottle9</groupId>
+		<artifactId>many-languages</artifactId>
+		<version>0.0.1</version>
+	</dependency>
+	
+		<!--NMS-->
+	<dependency>
+		<groupId>io.github.bluebottle9</groupId>
+		<artifactId>nms</artifactId>
+		<version>v1_19_R1</version>
+		<scope>provided</scope>
+	</dependency>
+
+ </dependencies>
+ 
+ <!--Building-->
+<build>  
+        <plugins>  
+            <plugin>  
+                <groupId>org.apache.maven.plugins</groupId>  
+                <artifactId>maven-shade-plugin</artifactId>  
+                <version>2.4.3</version>  
+                <executions>  
+                    <execution>  
+                        <phase>package</phase>  
+                        <goals>  
+                            <goal>shade</goal>  
+                        </goals>  
+                    </execution>  
+                </executions>  
+            </plugin>
+            
+            <plugin>
+    			<groupId>org.apache.maven.plugins</groupId>
+    		<artifactId>maven-compiler-plugin</artifactId>
+    		<version>3.8.1</version>
+    		<configuration>
+        		<release>17</release>
+    		</configuration>
+		</plugin>
+     </plugins>
+	</build>
+</project>

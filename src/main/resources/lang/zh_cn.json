@@ -1,0 +1,12 @@
+{
+	"command.wrongusage":"&a[Cloaking] &c 错误的用法，请使用&f/cloak",
+	"command.playeronly":"&a[Cloaking] &c这个指令仅能由玩家执行",
+	"command.cloaking":"&a[Cloaking] 隐形中...",
+	"command.cloaked":"&a[Cloaking] 已进入隐形",
+	"command.decloaking":"&a[Cloaking] 解除隐形中...",
+	"command.decloaked":"&a[Cloaking] 已解除隐形",
+	"command.warning.cloaking":"&a[Cloaking] &c正在隐形",
+	"command.warning.decloaking":"&a[Cloaking]&c正在解除隐形",
+	"proccessbar.cloak":"&a<%cloak-time>秒后隐形",
+	"proccessbar.decloak":"&a<%decloak-time>秒后解除隐形"
+}
